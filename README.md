@@ -1,0 +1,3 @@
+# Julia Function Bug: Missing Return Statement
+
+This repository demonstrates a common bug in Julia functions: a missing `return` statement in a conditional branch. The function `my_function` correctly squares positive and negative inputs, but fails to return a value when the input is zero, leading to an unexpected result. The solution illustrates how to fix the bug by explicitly handling the zero-input case.
